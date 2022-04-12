@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Red+Hat+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: rgb(228, 228, 217);
+    display: inline-block;
+    padding: 50px;
+    height: 100vh;
+}
+
+.menu__img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 30px 0;
+}
+
+.menu__text h3 {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.menu__text h6 {
+    font-size: 15px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    text-align:center
+    /* cursor: grab; */
+}
+
+.menu__text p a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menu__text p {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.menu__text p .active {
+    color: cornflowerblue;
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.home__bg {
+    background-image: url(/10-dars/input-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.first__page {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.home__text {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+.home__text h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.home__text button {
+    margin-top: 30px;
+    color: white;
+    padding: 7px 30px;
+    background-color: rgba(255, 255, 255, 0.507);
+    outline: none;
+    border: none;
+}
+
+.home__text p {
+    margin: 7px;
+}
+
+.about {
+    /* padding: 50px; */
+    background: url(/фура/about/obectivka/fura1.jpg);
+    width: 90%;
+    
+
+}
+
+.about__text small {
+    letter-spacing: 3px;
+    color: rgb(20, 20, 20);
+    display: block;
+    margin-bottom: 30px;
+}
+
+.about__text h3 {
+    margin-bottom: 50px;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.about__text p {
+    color: #1b1b1b;
+    margin-bottom: 40px;
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.card {
+    padding: 50px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.123);
+}
+
+.card i {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.about__content {
+    margin-top: 30px;
+    background: rgb(231, 228, 48);
+    border-radius: 8px;
+}
+
+.about__content p {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.about__content button {
+    font-size: 15px;
+    padding:5px 10px;
+    margin: 0px 30px 10px 30px;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid #797979;
+
+}
